@@ -11,7 +11,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { setLogin, setLogout } from "./features/User/userSlice";
 
-function Apper() {
+function App() {
    const dispatch = useDispatch();
    useEffect(() => {
       const auth = getAuth();
